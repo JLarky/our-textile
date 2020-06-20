@@ -3,6 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 
 const name = 'Наш текстиль'
+const description =
+  'продажа постельного белья и одежды из села Борок Буйского района Костромской области'
 export const siteTitle = 'Наш текстиль'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -10,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content={siteTitle} />
+        <meta name="description" content={description} />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(

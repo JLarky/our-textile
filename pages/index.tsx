@@ -30,7 +30,15 @@ export const Home: React.FC = () => {
 
         <div className="flex justify-between pt-6 px-2">
           <div>ИП Лапина С.М.</div>
-          <div>с. Борок</div>
+          <div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://goo.gl/maps/atBK7mnwFWpbb77o7"
+            >
+              с. Борок
+            </a>
+          </div>
         </div>
       </section>
       <section className="p-4">
