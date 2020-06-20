@@ -23,7 +23,7 @@ export const Home: React.FC = () => {
         <p className="p-2">
           По всем интересующим вопросам
           <br />
-          +79101999159 Светлана (
+          <a href="tel:+79101999159">+79101999159</a> Светлана (
           <a href="https://wa.me/79101999159">WhatsApp</a>/
           <a href="tg://resolve?domain=lapinasm">Telegram</a>)
         </p>
